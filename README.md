@@ -1,2 +1,2 @@
 # Mage Mastery Blog
-Blog de magento
+Blog de magento nuevo
