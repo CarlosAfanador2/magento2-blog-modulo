@@ -1,16 +1,15 @@
 <?php
 
-declare(strict_Type=1);
+declare(strict_type=1);
 
 namespace MageMastery\Blog\Model;
 
 use Magento\Framework\Model\AbstractModel;
-
+use MagentoMastery\Blog\Model\ResourceModel\Post as BlogResource;
 class Post extends AbstractModel 
 {
     protected function _construct()
     {
-        $this->_init();
-        parent::_construct(); //TODO: Cambiar el resguardo generado automáticamente
+        $this->_init(resourceModel:PostResource::class);
     } 
 }
